@@ -1,0 +1,90 @@
+.hide {
+	display: none !important;
+}
+.show {
+	display: block !important;
+}
+.show-ib {
+	display: inline-block !important;
+}
+
+.todo-list-container {
+	width: 416px;
+}
+
+.todo-list-items {
+	border-bottom: 1px dashed black;
+}
+
+.todo-list-item {
+	margin: 5px 0;
+}
+
+.todo-list-msg .message {
+	padding: 12px;
+}
+.todo-list-msg .message.size {
+	background: #f0f8ff;
+}
+.todo-list-msg .message.error {
+    background: #faebd7;
+}
+
+.action-btn {
+	width: calc(50% - 2px);
+    display: inline-block;
+    padding: 4px;
+}
+
+.todo-select, .todo-title, .todo-status, .todo-action {
+	display: inline-block;
+	margin: 2px;
+	padding: 5px;
+    vertical-align: middle;
+}
+
+.todo-status > .status {
+	width: 16px;
+    height: 16px;
+    border: 1px solid #acacac;
+}
+.status.done {
+	background: #008000
+}
+
+.todo-add {
+	padding-bottom: 20px;
+}
+.todo-input-title {
+	border: none;
+	border-bottom: 1px solid grey;
+	padding: 6px;
+	width: 325px;
+}
+.todo-input-title:focus {
+	outline: none;
+}
+.todo-input-button {
+	padding: 6px;
+	width: 70px;
+}
+
+.todo-list-title .todo-list-title-header {
+	border-top: 1px dashed black;
+	border-bottom: 1px dashed black;
+	display: inline-block;
+	padding: 5px;
+}
+
+.todo-list-title-header.select, .todo-list-item .todo-select {
+	width: 50px;
+}
+.todo-list-title-header.title, .todo-list-item .todo-title {
+	width: 150px;
+}
+.todo-list-title-header.status, .todo-list-item .todo-status {
+	width: 80px;
+}
+.todo-list-title-header.action, .todo-list-item .todo-action {
+	width: 80px;
+}
