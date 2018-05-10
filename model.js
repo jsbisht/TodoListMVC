@@ -1,5 +1,5 @@
 (function (window) {
-	function Todo(title) {
+    function Todo(title) {
     	this.title = title;
     	this.time  = new Date().getTime();
     	this.done  = false;
